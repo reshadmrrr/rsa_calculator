@@ -15,13 +15,13 @@ $ git clone https://github.com/reshadmrrr/rsa_calculator.git
 ```
 2. Open the project and install dependencies (using terminal):
 ```
-$ cd GroupChatApp
+$ cd rsa_calculator
 $ flutter pub get
 ```
 3. Now run the app on your connected device (using terminal):
-
-`$ flutter run`
-
+```
+$ flutter run
+```
 to know more about flutter, head to https://flutter.dev/ .
 
 
