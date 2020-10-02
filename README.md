@@ -8,4 +8,20 @@ A cross-platform mobile application made with flutter to generate a public and a
 ![rsa_calculator](/APKs/ScreenShots/screenshot1.jpg?raw=true)
 ![rsa_calculator](/APKs/ScreenShots/screenshot2.jpg?raw=true)
 
+## Configuration Steps
+1. Cloning the repository:
+```
+$ git clone https://github.com/reshadmrrr/rsa_calculator.git
+```
+2. Open the project and install dependencies (using terminal):
+```
+$ cd GroupChatApp
+$ flutter pub get
+```
+3. Now run the app on your connected device (using terminal):
+
+`$ flutter run`
+
+to know more about flutter, head to https://flutter.dev/ .
+
 
