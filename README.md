@@ -1,16 +1,27 @@
 # rsa_calculator
 
-a cross-platform mobile application to calculate public and private keys and encrypting and decrypting texts using these keys. 
+A cross-platform mobile application made with flutter to generate a public and a private key using the RSA algorithm and encrypting and decrypting an alphanumeric message.  
 
-## Getting Started
+1. Main source codes can be found in /lib directory. 
+2. Only android package files are added for testing. All android packages can be found in /APKs directory. 
+3. Screenshots 
+![rsa_calculator](/APKs/ScreenShots/screenshot1.jpg?raw=true)
+![rsa_calculator](/APKs/ScreenShots/screenshot2.jpg?raw=true)
 
-This project is a starting point for a Flutter application.
+## Configuration Steps
+1. Cloning the repository:
+```
+$ git clone https://github.com/reshadmrrr/rsa_calculator.git
+```
+2. Open the project and install dependencies (using terminal):
+```
+$ cd rsa_calculator
+$ flutter pub get
+```
+3. Now run the app on your connected device (using terminal):
+```
+$ flutter run
+```
+to know more about flutter, head to https://flutter.dev/ .
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
