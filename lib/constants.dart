@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+ThemeData defaultTheme = ThemeData(
+  fontFamily: "Century",
+  primaryColor: boxcolor,
+  visualDensity: VisualDensity.adaptivePlatformDensity,
+);
+
 const Color bgcolor = Color(0xfff2f2f2);
 const Color boxcolor = Color(0xffffffff);
 const Color blackcolor = Colors.black;

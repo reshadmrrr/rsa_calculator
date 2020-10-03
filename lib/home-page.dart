@@ -205,7 +205,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               CustomText(
-                first: "Generated cypher",
+                first: "Generated cypher message",
                 second: encodedMessage == null ? 0 : encodedMessage,
               ),
               Box(
@@ -219,7 +219,7 @@ class _HomePageState extends State<HomePage> {
                         keyboardType: TextInputType.multiline,
                         onChanged: (value) => cypherTmp = value,
                         decoration: inputDecoration.copyWith(
-                          labelText: "Enter your cypher code",
+                          labelText: "Enter your cypher message",
                         ),
                       ),
                     ),
@@ -238,7 +238,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               CustomText(
-                first: "Original Code",
+                first: "Original Message",
                 second: originalMessage == null ? 0 : originalMessage,
               ),
               SizedBox(height: 30),
